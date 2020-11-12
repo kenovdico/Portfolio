@@ -228,7 +228,7 @@ html, body {
     
 }
 
-@media screen and (max-width: 480px) and (orientation: portrait) {
+@media screen and (max-device-width: 640px) {
     .main-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -238,7 +238,11 @@ html, body {
         ;
         width: 70%;
         height: 60%;
-        
+    }
 
+    .nav ul {
+        justify-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
