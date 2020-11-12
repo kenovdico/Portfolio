@@ -176,12 +176,6 @@ html, body {
     font-size: 9pt;
 }
 
-@media screen and (max-width: 1200px) {
-    .main-container {
-        width: 95%;
-    }    
-}
-
 @media screen and (max-width: 800px) {
     .main-container {
         display: grid;
