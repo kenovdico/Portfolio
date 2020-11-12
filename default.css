@@ -227,3 +227,18 @@ html, body {
     }
     
 }
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'images'
+            'myDetails'
+        ;
+        width: 70%;
+        height: 60%;
+        
+
+    }
+}
